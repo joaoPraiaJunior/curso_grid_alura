@@ -1,0 +1,9 @@
+.secao-horizontal .cartao {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 3rem .9rem;
+}
+
+.secao-horizontal .cartao__titulo {
+    grid-area: 1 / 1 / 4 / 2;
+}
